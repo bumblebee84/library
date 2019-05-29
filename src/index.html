@@ -1,13 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html class="has-navbar-fixed-top" lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>SimLibrary</title>
 </head>
 <body>
+<nav aria-label="main navigation" class="navbar is-fixed-top" role="navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img alt="Bulma: a modern CSS framework based on Flexbox" height="28"
+                 src="https://bulma.io/images/bulma-logo.png" width="112">
+        </a>
+    </div>
+    <span class="button is-primary start" id="startButton">开始游戏</span>
+</nav>
+<div class="banner container section has-text-dark is-fluid">
+    <div class="site-search-box is-size-7-mobile">
+        <div class="banner_text">
+            <span>藏书1000本</span>
+            <span>外借中200本</span>
+            <span>在馆800本</span>
+        </div>
+        <div class="search">
+            <input class="input is-primary" placeholder="请输入书籍名称" type="text">
+            <a class="button is-link search_button" id="searchButton" href="#">搜索</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="columns">
+        <div class="leftSide column is-two-thirds">
+            <div class="columns" id="student">
+            </div>
+        </div>
 
+        <div class="rightSide column is-one-third is-size-7-desktop">
+            <div class="columns" id="book">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="choose_book">
+    <input type="radio" value="西游记" name="a">西游记
+    <input type="radio" name="a">三国
+    <input type="radio" name="a">红楼梦
+</div>
 </body>
 </html>

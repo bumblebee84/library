@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    background-color: #e8e8e8;
+    font-size: 14px;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background: url("../images/site-search-bg.jpeg") no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 20px auto;
+}
+
+.site-search-box{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(204,204,204,0.9);
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.site-search-box .search{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.site-search-box .search input{
+    width: 80%;
+}
+
+.card{
+    margin: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+.barbox{
+    margin-top: 10px;
+}
+.progressbar{
+    margin-top: 3px;
+    width: 100%;
+    height: 15px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.book-content{
+    height: auto;
+    overflow: auto;
+}
+
+
+.content{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.start{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+
+.span_id_show,.span_name_show,.span_book_show,.span.state.show{
+    margin-left: 5px;
+    color: deepskyblue;
+}
+
+.choose_book{
+    width: 200px;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+}
